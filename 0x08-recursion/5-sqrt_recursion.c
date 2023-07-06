@@ -8,10 +8,12 @@
  */
 int square(int n, int i)
 {
-	if (n * n == i)
-		return (n);
-	if (n * n > i)
+	int sqrt = i*i;
+
+	if (sqrt > n)
 		return (-1);
+	if (sqrt == n)
+		return (i);
 	return (square(n, i + 1));
 }
 /**
