@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 #include <stddef.h>
+#include <stdlib.h>
 
 int main(void);
 int _putchar(char c);
